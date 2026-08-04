@@ -1,0 +1,46 @@
+/* LessonIntro.css - 回收基礎入門 題目 UI 樣式 */
+
+.lesson-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .option-btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+    background-color: #e6f4ea;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #d0ebd8;
+  }
+  
+  .option-btn.correct {
+    background-color: #a5d6a7;
+    border-color: #2e7d32;
+    color: #1b5e20;
+  }
+  
+  .option-btn.wrong {
+    background-color: #ef9a9a;
+    border-color: #c62828;
+    color: #b71c1c;
+  }

@@ -1,0 +1,42 @@
+.map-view-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .filter-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .filter-panel input,
+  .filter-panel select {
+    padding: 6px 10px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .waste-filter {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .waste-filter label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .leaflet-map {
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
