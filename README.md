@@ -58,9 +58,6 @@ GreenLingo is a web application built with React + Vite that combines environmen
 
 ### 1. Install Dependencies
 
-```bash
-npm install
+go in greenlingo\greenlingo
 
 npm run dev
-
-npm run build
